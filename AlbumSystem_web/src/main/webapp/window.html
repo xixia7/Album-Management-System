@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>弹窗</title>
+        <link rel="stylesheet" type="text/css" href="css/css_hjh/window.css">
+    </head>
+    <body>
+        <!-- <button id="open" class="btn">弹窗</button> -->
+        <div id="background" class="balck">
+            <div id="div1" class="content">
+                <div id="close">
+                    <span id="close-button">×</span>
+                    <p id="label">创建相册</p>
+                </div>
+                <div id="div2">
+                        <form id="album-form" action="" method="post">
+                                <fieldset>
+                                    <label for="albumname">
+                                        相册名称：
+                                    </label>
+                                    <input type="text" id="albumname" name="albumname" placeholder="请输入相册名称"/>
+                                    <div class="clear"> </div>
+                                    <label>
+                                        相册描述：
+                                    </label>
+                                    <textarea cols="20" rows="3" placeholder="说说这个相册的故事...（非必填）"></textarea>
+                                    <div class="clear"></div>
+                                    
+                                    <!-- 相册主题设置 -->
+                                    <label>
+                                        主题： 
+                                    </label>
+                                    <div id="love">
+                                    <input type="radio" name="radio" value="普通">普通
+                                    <input type="radio" name="radio" value="亲子">亲子
+                                    <input type="radio" name="radio" value="旅游">旅游
+                                    <input type="radio" name="radio" value="校友">校友
+                                    </div>
+                                    <br/>
+
+                                    <!-- 相册分类设置 -->
+                                    <label>
+                                        分类：
+                                    </label>
+                                 
+                                    <select name="select1">
+                                        <option>请选择</option>
+                                        <option value="option1">最爱</option>
+                                        <option value="option2">喜欢</option>
+                                        <option value="option3">一般</option>
+                                    </select>
+
+                                    <!-- 相册权限设置 -->
+                                  
+                                    <label>
+                                        空间权限：
+                                    </label>
+                                    <select name="select2">
+                                        <option>请选择</option>
+                                        <option value="option1">所有人可见</option>
+                                        <option value="option2">部分人可见</option>
+                                        <option value="option3">都不可见</option>
+                                    </select>
+                                    <div>
+                                        <p id="ppp">按当前空间权限，仅部分人可进入空间</p>
+                                        <a href="#">
+                                            <span class="read">
+                                                查看空间权限
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <label for="limit" style="padding:0;">
+                                        其他权限：
+                                    </label>
+                                    <input type="checkbox" id="limit1" name="limit1"/>允许
+                                    <a href="#" class="load">
+                                        转载
+                                    </a>
+                                    <div class="clear"></div>
+
+                                    <div id="limit22">
+                                    <input type="checkbox" id="limit2" name="limit2"/>允许圈人（只允许好友圈人）
+                                    <div class="clear"></div>
+                                    </div>
+
+                                    <div id="limit22">
+                                    <input type="checkbox" id="limit3" name="limit3"/>对访客隐藏拍摄时间，相机信息
+                                    <div class="clear"></div>
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                </div> 
+
+                <!-- 确认弹窗 -->
+                <div id="div3">
+                    <span id="buttons">
+                        <button id="confirm" class="btn">确认</button>
+                        <button id="cancle" class="btn">取消</button>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/js_hjh/window.js"></script>
+    </body>
+</html>

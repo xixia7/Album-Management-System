@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:00:46 +0800] "GET /addUser HTTP/1.1" 200 338 http-bio-9090-exec-1 391
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:00:46 +0800] "GET /favicon.ico HTTP/1.1" 404 1001 http-bio-9090-exec-2 15
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:00:59 +0800] "POST /user/addUser HTTP/1.1" 200 97 http-bio-9090-exec-3 2079
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:42:30 +0800] "GET /login HTTP/1.1" 200 314 http-bio-9090-exec-6 47
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:42:54 +0800] "GET /login HTTP/1.1" 200 315 http-bio-9090-exec-7 82
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:43:41 +0800] "GET /login HTTP/1.1" 200 319 http-bio-9090-exec-8 15
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:43:59 +0800] "GET /login HTTP/1.1" 200 320 http-bio-9090-exec-9 0
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:44:00 +0800] "GET /login HTTP/1.1" 304 - http-bio-9090-exec-10 0
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:44:11 +0800] "POST /user/login HTTP/1.1" 404 971 http-bio-9090-exec-10 0
+0:0:0:0:0:0:0:1 - - [03/Apr/2019:22:46:08 +0800] "POST /user/login HTTP/1.1" 404 971 http-bio-9090-exec-3 0
+127.0.0.1 - - [03/Apr/2019:23:02:15 +0800] "GET /addUser HTTP/1.1" 200 338 http-bio-9090-exec-1 99
+127.0.0.1 - - [03/Apr/2019:23:02:25 +0800] "POST /user/addUser HTTP/1.1" 200 97 http-bio-9090-exec-2 452
+127.0.0.1 - - [03/Apr/2019:23:02:49 +0800] "POST /user/addUser HTTP/1.1" 200 97 http-bio-9090-exec-3 221
+127.0.0.1 - - [03/Apr/2019:23:03:56 +0800] "GET /login HTTP/1.1" 200 322 http-bio-9090-exec-5 5
+127.0.0.1 - - [03/Apr/2019:23:04:07 +0800] "POST /user/doLogin HTTP/1.1" 200 129 http-bio-9090-exec-6 23

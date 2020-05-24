@@ -1,0 +1,9 @@
+#check p{
+    display:inline-block;
+    margin-top: 5px;
+}
+.description {
+    width: 400px;
+    height: 60px;
+    word-wrap:break-word ;
+}

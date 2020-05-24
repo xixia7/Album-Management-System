@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hubu.mapper.AlbumMapper">
+
+    <!-- 查询相册 -->
+    <select id="selectAllAlbumByuid" resultType="album" parameterType="users">
+        select * from album where uid = #{userId}
+    </select>
+
+    <!-- 创建相册-->
+    <insert id="insertAlbumByuid">
+        insert into album VALUES (DEFAULT, #{albumCreate.name}, null, null, #{albumCreate.discription}, #{userCreate.userId},null,null,null)
+    </insert>
+
+    <!-- 重新编辑相册信息 -->
+    <update id="updateAlbumById" parameterType="album">
+        update album set name = #{name},discription = #{discription} where id = #{id}
+    </update>
+
+
+    <!-- 删除相册 -->
+    <delete id="deleteAlbumByuid">
+        delete from album where id = #{albumDelete.id} and uid = #{userDelete.userId}
+    </delete>
+</mapper>

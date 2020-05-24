@@ -1,0 +1,112 @@
+html,body{
+	background-color: #f0f0f0;
+	color:#3c3c3c;
+
+}
+
+#home{
+	display: none;
+	width:100%;
+	height:100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+}
+
+.mains{
+    border: 1px solid #DEB887;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    background-image: url('../../images/images_hjh/QQ图片20190405153947.jpg');
+    width: 25%;
+    height: 200px;
+    z-index: 1;
+    margin: 12% auto;
+    overflow: auto;
+    overflow-x:hidden;
+	overflow-y:hidden;
+}
+.warn-delete1{
+	width: 100%;
+	height: 30px;
+	/*background-color: #e0e0e0;*/
+	font-weight: bold;
+}
+.warn-delete1 .warn-delete1-div{
+    padding-left: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+.warn-delete1 #close-button1{
+	padding-right: 10px;
+    float: right;
+    font-size: 20px;
+    color: #1d1c1c;
+    color: #fff;
+}
+
+.mains .sure-delete1{
+    position: relative;
+	padding-top: 20px;
+	width: 100%;
+	height: 100px;
+	/*border: 1px solid #000;*/
+	/*line-height: 130px;*/
+	font-size: 20px;
+	font-weight: bold;
+    color: #fff;
+	margin-left: 85px;
+}
+
+.mains .sure-delete1 .sure-delete-album1{
+    position: absolute;
+    top: 30px;
+    
+}
+.mains .sure-delete1 .dateword1{
+
+	font-size: 13px;
+	color: #BEBEBE;
+}
+.mains .con-can1{
+	padding-top: 9px;
+    padding-right:10px;
+    height: 100%;
+   /* background-color: #e0e0e0;*/
+}
+#output{
+    background: #ffffff;
+}
+
+#buttons1{
+    float: right;
+}
+
+#confirm1{
+    border: 1px solid#999;
+    border-radius:5px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    -webkit-border-radius:5px;
+    font-size: 13px;
+    width: 50px;
+    background: #1a6edb;
+}
+#confirm1:hover{
+    color: #999;
+}
+#cancle1{
+    border: 1px solid#999;
+    border-radius:5px;
+    padding: 4px;
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    -webkit-border-radius:5px;
+    font-size: 13px;
+    width: 50px;
+}
+#cancle1:hover{
+    color: rgba(160, 156, 156, 0.651);
+}

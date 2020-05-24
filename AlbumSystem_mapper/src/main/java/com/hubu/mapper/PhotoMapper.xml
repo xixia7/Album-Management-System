@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hubu.mapper.PhotoMapper">
+    <!--根据相册Id查所有的照片-->
+    <select id="selectPhotoByAlbumId" parameterType="int" resultType="photo">
+        select * from photo where photo.album_id=#{albumId} and photo.state=0
+    </select>
+
+    <!--上传照片-->
+    <insert id="insertPhoto" parameterType="photo">
+      insert into photo(headline,path,create_time,photo_size,discription,album_id,update_time,state)
+      values (#{headline},#{path},#{createTime},#{photoSize},#{discription},#{albumId},#{updateTime},#{state})
+    </insert>
+
+
+    <!--删除图片 ，移入回收站-->
+    <update id="UpdatePhotoById" parameterType="com.hubu.pojo.Photo" >
+        update Photo set state=1,update_time=#{updateTime} where id=#{id}
+    </update>
+
+    <!--展示回收站-->
+    <select id="SelectAllRecyclePhoto" parameterType="int" resultType="com.hubu.pojo.Photo">
+    select photo.* from photo,album WHERE photo.state=1
+    and photo.album_id = album.id
+    and album.uid = #{uid}
+    </select>
+    <!--模糊查询照片-->
+    <select id="SelectPhotoInfoByHeadline" resultType="com.hubu.pojo.Photo">
+
+    select photo.* from photo,album WHERE headline LIKE #{headline}
+    and photo.state=0
+    and photo.album_id = album.id
+    and album.uid = #{uid}
+    </select>
+    <!--显示一张图片-->
+    <select id="selectPhotoBy" resultType="Photo" parameterType="int">
+        select * from photo where photo.id=#{id}
+    </select>
+
+    <update id="UpdateRecyclePhotoStateById" parameterType="com.hubu.pojo.Photo">
+        update Photo set state=0,update_time=#{updateTime} where id=#{id}
+    </update>
+
+
+</mapper>

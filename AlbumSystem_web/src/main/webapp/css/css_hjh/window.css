@@ -1,0 +1,169 @@
+body{
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+#open{
+    background: #ffffff;
+}
+#label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#buttons{
+    float: right;
+}
+#confirm{
+    border: 1px solid#999;
+    border-radius:5px;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    -webkit-border-radius:5px;
+    font-size: 13px;
+    width: 50px;
+    background: #1a6edb;
+}
+#confirm:hover{
+    color: #999;
+}
+#cancle{
+    border: 1px solid#999;
+    border-radius:5px;
+    padding: 4px;
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    -webkit-border-radius:5px;
+    font-size: 13px;
+    width: 50px;
+}
+#cancle:hover{
+    color: rgba(160, 156, 156, 0.651);
+}
+#background{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+#div1{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 35%;
+    z-index: 1;
+    margin: 6% auto;
+    overflow: auto;
+}
+
+#div2{
+    background:#fff;
+    margin: auto;
+    padding: 15px 30px;
+}
+#close{
+    padding: 5px;
+    background: #fff;
+    height: 30px;
+    color: #333;
+}
+#close-button{
+    padding-right: 10px;
+    float: right;
+    font-size: 21px;
+    color: #000;
+    font-weight: bold;
+    opacity: 2;
+    text-shadow: 0 1px 0 #fff;
+}
+#div3{
+    padding-top: 9px;
+    padding-right:10px;
+    height: 30px;
+    background: #fff;
+}
+
+#open:hover{
+    background-color: gray;
+}
+#close-button:hover{
+    color: orangered;
+}
+
+
+.clear{
+    clear: both;
+}
+
+form{
+    width:406px;
+}
+
+
+
+fieldset{
+    border: 0;
+    color: #c5c5c5;
+}
+
+label{
+    width: 115px;
+    text-align: right;
+    float: left;
+    margin: 0;
+    padding:5px 0 0 0;
+    font-size: 16px;
+    color: #c5c5c5;
+}
+
+#albumname{
+    width: 218px;
+    display: block;
+    padding: 4px;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    color: #3a3a3a;
+    font-family: Georgia, serif;
+}
+select{
+    width: 150px;
+    display: block;
+    padding: 4px;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    color: #c5c5c5;
+    font-family: Georgia, serif;
+}
+
+textarea{
+    width: 220px;
+    display: block;
+    padding: 4px;
+    font-size: 15px;
+    color: #3a3a3a;
+    margin: 0 0 10px 0;
+    font-family: Georgia, serif;
+}
+
+input[type=checkbox]{
+        width: 20px;
+        margin: 0;
+        display: inline-block;
+        color: #c5c5c5;
+}
+#limit22,#ppp{
+    margin: 10px 0 10px 115px;
+
+}
+#love,#love1{
+    margin: 10px 0 0 115px;
+}
+
+.read{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 0 0 300px;
+}
+

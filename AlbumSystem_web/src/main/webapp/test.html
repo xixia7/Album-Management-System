@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.js"></script> <!--① 必须要额外引入jquery.js   ② 引入jquery在引入bootstrap之前-->
+    <script type="text/javascript" src="js/js_wwj/jquery-1.9.1.min.js"></script>
+    <title></title>
+
+
+</head>
+<body>
+<input id="btn" type="button" value="展示" onclick="delet()">
+<script type="text/javascript">
+
+    function  delet() {
+        var id={"uid":1};
+        console.log(1)
+        $.ajax({
+            url:"/queryRecyclePhoto",
+            type:"get",
+            data:id,
+            dataType:"json",
+            success:function (data) {
+                alert(data.success().msg)
+            },
+            error:function () {
+                alert("上传失败！！")
+
+            }
+        })
+    }
+
+
+
+</script>
+<a href="queryPhotoByHeadline/小">模糊查询</a>
+<img src="">
+</body>
+<ml>

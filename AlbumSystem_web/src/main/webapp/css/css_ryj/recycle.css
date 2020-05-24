@@ -1,0 +1,75 @@
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+		.bg{
+			/* height: 1000px; */
+			background-image: url(../../images/images_ryj/timg.jpg);
+			padding-top: 50px;
+		}
+		.container{
+			height: 575px;
+			background-color: rgba(244,224,189,0.7);
+			box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+			border-radius: 10px;
+			
+		}
+		h3{
+			margin-top: 50px;
+			margin-left: 20px;
+		}
+		.col-md-3{
+			background-color:white;
+			background-image: url(../../images/images_ryj/2.png);
+			background-repeat: no-repeat;
+			background-size: 8%;
+			background-position:  6px 0px;
+			width: 160px;
+			height: 200px;
+			margin-top: 30px;
+			margin-left:60px;
+			box-shadow: 2px 2px 5px 2px ;
+			border-radius: 5px 0px;
+			padding:10px;
+			padding-top: 20px;
+		}
+		.img{
+			border: 5px solid rgba(255,184,79,0.7);
+			width: 140px;
+			height: 150px;
+			background-image: url(../../images/images_ryj/img.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.Album_name{
+			margin-top: 5px;
+			text-align: center;
+			display: inline-block;
+		}
+		.delete {
+			display: inline-block;
+		}
+		.dropdown {
+    		position: relative;
+    		display: inline-block;
+    		width: 20px;
+    		height: 20px;
+    		float: right;
+    		margin-right: -10px;
+    		margin-top: -18px;
+		}
+		.dropdown-content {
+    		display: none;
+    		/*position: absolute;*/
+    		background-color: #f9f9f9;
+    		min-width: 50px;
+    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    		padding: 5px 5px;
+    		z-index: 1;
+    		font-size: 12px;
+    		text-align: center;
+		}
+		.dropdown:hover .dropdown-content {
+    		display: block;
+		}

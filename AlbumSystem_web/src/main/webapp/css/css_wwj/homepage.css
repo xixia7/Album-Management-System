@@ -1,0 +1,84 @@
+
+    *{
+        margin:0;
+        padding: 0;
+        
+    }
+    body {
+        /* background-color:#ea6f5a; */
+        overflow-x: hidden;
+        /* background-color: pink; */
+        padding-top:100px;
+        background-image: url(../../images/images_wwj/timg.jpg);
+    }
+    .display-none {
+        display: none;
+    }
+    .container_main {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:-20px;
+    }
+    .navbar {
+        background-color: #fff;
+        border-color: #f0f0f0;
+    }
+    #mynavbar li:first-child{margin-left: 50px;}
+    a { color:#333;}
+    .active{
+        /* background-color: #F4E0BD; */
+        color:#ea6f5a;   
+    }
+    a:hover, a:focus {
+        color:#ea6f5a;
+    }
+    
+    .navbar-fixed-top {
+        padding-right: 15px;
+    }
+    .nav  li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navbar-form {
+        margin-left: 100px;
+    }
+    .list-group {
+        position: fixed;
+    }
+    .list-group-item {
+        margin-top: 100px;
+    }
+    .form-control {
+        font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    }
+    .glyphicon-search:before {
+        color:#ea6f5a;
+    }
+    .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+        background-color: #ea6f5a;
+        border-color: #eee;
+    }
+    .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #F4E0BD;
+    border-color: #eee;}
+    .panel-primary {
+    border-color: #eee;
+    }
+    .panel-body {
+        height:595px;
+        overflow: hidden; 
+    }
+    #search-result {
+        position: absolute;
+        background-color: rgba(255,255,255,0.4);
+        color: black;
+        width:165px;
+        padding-left:12px;
+        padding-top:5px;
+
+    }

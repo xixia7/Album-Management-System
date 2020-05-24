@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84cb1bf3-ade1-4240-8f6d-b7c57121ae5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/PhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/PhotoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/PhotoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Albumdelete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/createAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/Albumdelete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/createAlbum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/reviseAlbum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_ryj/Album.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_ryj/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_ryj/recycle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_wwj/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_wwj/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_wwj/showPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/font/fonts_wwj/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/font/fonts_wwj/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/font/fonts_wwj/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/font/fonts_wwj/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_hjh/QQ图片20190405153947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_ryj/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_ryj/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_ryj/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_ryj/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_wwj/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_wwj/login_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_wwj/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_wwj/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/images/images_wwj/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/Albumdelete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/createAlbum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/recycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/reviseAlbum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_ryj/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_ryj/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/album.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/modernizr.custom.63321.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/mouseflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/searchPhotoPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/showPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/sketch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/recycle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/reviseAlbum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/searchPhotoPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/showPhoto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/userHome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/window.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/AJAXResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/AlbumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/AlbumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/AlbumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/AlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/resource/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/Foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/Top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/addAlbum.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/addUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/amain.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/class_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/class_update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/delAlbum.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/listAllClassPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/login_test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/modifyPass.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/navibar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/navibar1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/ok.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/photo_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/photo_all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/photo_manager.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/photo_one.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/photo_one_pinglun.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/admin/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/doc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/jquery/jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093716127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093716127_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093725397.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093725397_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093732951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093732951_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093743602.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093743602_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093749661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093749661_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093761827.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326093761827_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326094299769.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326094299769_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326094652535.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1326094652535_min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/AlbumSystem_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/AlbumSystem_mapper/target/" />
+    <ignored path="$PROJECT_DIR$/AlbumSystem_service/target/" />
+    <ignored path="$PROJECT_DIR$/AlbumSystem_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AlbumSystem$ManagerTest_insertUserTest.ic" NAME="ManagerTest.insertUserTest Coverage Results" MODIFIED="1555060949786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hubu.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="796176391">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="35" />
+          <entry key="java" value="69" />
+          <entry key="jpg" value="6" />
+          <entry key="js" value="40" />
+          <entry key="jsp" value="3" />
+          <entry key="png" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="35" />
+          <entry key="Image" value="8" />
+          <entry key="JAVA" value="69" />
+          <entry key="JSP" value="3" />
+          <entry key="JavaScript" value="40" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="html" value="246" />
+          <entry key="java" value="1061" />
+          <entry key="js" value="1720" />
+          <entry key="properties" value="12" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="126" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="247" />
+          <entry key="JAVA" value="1061" />
+          <entry key="JavaScript" value="1719" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="12" />
+          <entry key="XML" value="126" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1813741450">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="14" />
+          <entry key="java" value="110" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="61" />
+          <entry key="xml" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="14" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="110" />
+          <entry key="JSP" value="61" />
+          <entry key="JavaScript" value="2" />
+          <entry key="XML" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="39" />
+          <entry key="html" value="70" />
+          <entry key="java" value="2659" />
+          <entry key="js" value="23" />
+          <entry key="jsp" value="364" />
+          <entry key="txt" value="140" />
+          <entry key="xml" value="529" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="70" />
+          <entry key="JAVA" value="2659" />
+          <entry key="JSP" value="364" />
+          <entry key="JavaScript" value="23" />
+          <entry key="PLAIN_TEXT" value="179" />
+          <entry key="XML" value="529" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2048094274">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="28" />
+          <entry key="java" value="37" />
+          <entry key="js" value="54" />
+          <entry key="jsp" value="8" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="28" />
+          <entry key="JAVA" value="37" />
+          <entry key="JSP" value="8" />
+          <entry key="JavaScript" value="54" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="dummy" value="7" />
+          <entry key="html" value="99" />
+          <entry key="java" value="307" />
+          <entry key="js" value="1339" />
+          <entry key="jsp" value="57" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="99" />
+          <entry key="JAVA" value="307" />
+          <entry key="JSP" value="57" />
+          <entry key="JavaScript" value="1339" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="163" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="60980516">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="java" value="38" />
+          <entry key="jpg" value="13" />
+          <entry key="js" value="3" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="13" />
+          <entry key="JAVA" value="38" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1119" />
+          <entry key="js" value="324" />
+          <entry key="properties" value="9" />
+          <entry key="xml" value="297" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1119" />
+          <entry key="JavaScript" value="324" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="296" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-725073524">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="java" value="12" />
+          <entry key="js" value="7" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="12" />
+          <entry key="JavaScript" value="7" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="47" />
+          <entry key="java" value="62" />
+          <entry key="js" value="294" />
+          <entry key="properties" value="9" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="47" />
+          <entry key="JAVA" value="62" />
+          <entry key="JavaScript" value="294" />
+          <entry key="Properties" value="9" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-921587028">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="12" />
+          <entry key="java" value="16" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="18" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="16" />
+          <entry key="JavaScript" value="18" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="142" />
+          <entry key="html" value="106" />
+          <entry key="java" value="664" />
+          <entry key="js" value="789" />
+          <entry key="properties" value="9" />
+          <entry key="xml" value="103" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="142" />
+          <entry key="HTML" value="106" />
+          <entry key="JAVA" value="664" />
+          <entry key="JavaScript" value="789" />
+          <entry key="Properties" value="9" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="101" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/PhotoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="166" column="78" selection-start-line="166" selection-start-column="78" selection-end-line="166" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/3f40116a087f425f8036677f99cfd51e_7.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/5b6bdb8c218a486486aa1d6b5c55167a_psb (4).jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/718ae269ea7142a4a054fc97b52cab9d_5.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/6960b94463874448a785c88126157e15_3.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/c81a305be8d943beae09cd4bd279f87c_1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/f1632b09ac43416bb30155ee5abbaf28_2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/PhotoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3164">
+              <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+              <folding>
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/recycle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1092">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>哈哈</find>
+      <find>open</find>
+      <find>confirm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Users.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/homepage.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/login.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/pom.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Photo.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/userHome.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/AlbumController.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_ryj/Album.css" />
+        <option value="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_wwj/showPhoto.css" />
+        <option value="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/PhotoService.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_ryj/recycle.css" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/searchPhotoPage.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/homepage.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_wwj/homepage.css" />
+        <option value="$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/searchPhotoPage.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/searchPhotoPage.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Msg.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Album.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/showPhoto.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Albumdelete.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/showPhoto.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/Albumdelete.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/reviseAlbum.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/window.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/album.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/createAlbum.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/Albumdelete.css" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/createAlbum.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/recycle.js" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Album.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/homepage.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/recycle.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/reviseAlbum.html" />
+        <option value="$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/PhotoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/PhotoController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Programming Configuration\Maven\myrepository" />
+        <option name="mavenHome" value="E:/Programming Configuration/Maven/apache-maven-3.3.3" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="userSettingsFile" value="E:\Programming Configuration\Maven\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AlbumSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AlbumSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AlbumSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="305" />
+    <option name="y" value="125" />
+    <option name="width" value="1530" />
+    <option name="height" value="870" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="css_hjh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="js_hjh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="js_ryj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="js_wwj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="uploadimg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlbumSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlbumSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="AlbumSystem_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555238622068" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Coding.netWorkSpace\AlbumSystem\AlbumSystem_web\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hubu.service.impl" />
+      <recent name="com.hubu.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\AlbumSystemNew07\AlbumSystem_web\src\main\webapp\js\js_hjh" />
+      <recent name="F:\IDEAWorkSpace\AlbumSystem\AlbumSystem_web\src\main\webapp\js\js_hjh" />
+      <recent name="F:\IDEAWorkSpace\AlbumSystem\AlbumSystem_web\src\main\webapp\uploadimg" />
+      <recent name="F:\IDEAWorkSpace\AlbumSystem\AlbumSystem_web\src\main\webapp\js\js_wwj" />
+      <recent name="F:\IDEAWorkSpace\AlbumSystem\AlbumSystem_mapper\src\main\java\com\hubu\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ManagerTest.insertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlbumSystem_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hubu.test.ManagerTest" />
+      <option name="METHOD_NAME" value="insertUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManagerTest.insertUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84cb1bf3-ade1-4240-8f6d-b7c57121ae5b" name="Default Changelist" comment="" />
+      <created>1554084982413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554084982413</updated>
+      <workItem from="1554084991985" duration="3285000" />
+      <workItem from="1554098868563" duration="5508000" />
+      <workItem from="1554104404226" duration="2779000" />
+      <workItem from="1554114422730" duration="129000" />
+      <workItem from="1554115824090" duration="455000" />
+      <workItem from="1554117203002" duration="189000" />
+      <workItem from="1554165881891" duration="2853000" />
+      <workItem from="1554168772655" duration="3186000" />
+      <workItem from="1554195244113" duration="1594000" />
+      <workItem from="1554197081557" duration="2483000" />
+      <workItem from="1554207613718" duration="290000" />
+      <workItem from="1554208687778" duration="491000" />
+      <workItem from="1554296779851" duration="4681000" />
+      <workItem from="1554303102679" duration="1221000" />
+      <workItem from="1554337024829" duration="3811000" />
+      <workItem from="1554340852861" duration="598000" />
+      <workItem from="1554341462525" duration="7785000" />
+      <workItem from="1554366213185" duration="2983000" />
+      <workItem from="1554369990006" duration="2249000" />
+      <workItem from="1554375831957" duration="7010000" />
+      <workItem from="1554429586228" duration="3792000" />
+      <workItem from="1554452515137" duration="10420000" />
+      <workItem from="1554468034591" duration="1312000" />
+      <workItem from="1554469377214" duration="4134000" />
+      <workItem from="1554518003464" duration="11598000" />
+      <workItem from="1554537408998" duration="7705000" />
+      <workItem from="1554613854391" duration="1002000" />
+      <workItem from="1554618850070" duration="5712000" />
+      <workItem from="1554630448153" duration="2003000" />
+      <workItem from="1554637971509" duration="443000" />
+      <workItem from="1554686351315" duration="2534000" />
+      <workItem from="1554703645344" duration="7004000" />
+      <workItem from="1554725271793" duration="668000" />
+      <workItem from="1554790329292" duration="768000" />
+      <workItem from="1554791138756" duration="1034000" />
+      <workItem from="1554792251781" duration="16583000" />
+      <workItem from="1554813681429" duration="2315000" />
+      <workItem from="1554856769311" duration="1106000" />
+      <workItem from="1554857928712" duration="4322000" />
+      <workItem from="1554862287100" duration="2105000" />
+      <workItem from="1554864566539" duration="850000" />
+      <workItem from="1554865453292" duration="134000" />
+      <workItem from="1554865596136" duration="140000" />
+      <workItem from="1554865926395" duration="671000" />
+      <workItem from="1554866630503" duration="14883000" />
+      <workItem from="1554883123618" duration="3993000" />
+      <workItem from="1554887165587" duration="2166000" />
+      <workItem from="1554892024719" duration="8103000" />
+      <workItem from="1554942551934" duration="266000" />
+      <workItem from="1554969892361" duration="7951000" />
+      <workItem from="1554980890231" duration="3659000" />
+      <workItem from="1554984620162" duration="675000" />
+      <workItem from="1554985333280" duration="311000" />
+      <workItem from="1554985682329" duration="997000" />
+      <workItem from="1554986727833" duration="337000" />
+      <workItem from="1554988701423" duration="9865000" />
+      <workItem from="1554998833379" duration="1616000" />
+      <workItem from="1555034405749" duration="1057000" />
+      <workItem from="1555035665425" duration="2679000" />
+      <workItem from="1555043233392" duration="85000" />
+      <workItem from="1555043347688" duration="14985000" />
+      <workItem from="1555061709164" duration="7919000" />
+      <workItem from="1555118867322" duration="1220000" />
+      <workItem from="1555130366757" duration="10520000" />
+      <workItem from="1555141699668" duration="732000" />
+      <workItem from="1555143144031" duration="18645000" />
+      <workItem from="1555214747771" duration="10368000" />
+      <workItem from="1555227701249" duration="75000" />
+      <workItem from="1555227805908" duration="5739000" />
+      <workItem from="1555233746970" duration="5127000" />
+      <workItem from="1555248337820" duration="2398000" />
+      <workItem from="1555254573117" duration="169000" />
+      <workItem from="1555317078243" duration="371000" />
+    </task>
+    <task id="LOCAL-00001" summary="相册管理系统第一次提交">
+      <created>1554105644011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554105644011</updated>
+    </task>
+    <task id="LOCAL-00002" summary="相册管理系统第一次提交">
+      <created>1554117235086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554117235086</updated>
+    </task>
+    <task id="LOCAL-00003" summary="相册管理系统框架最终版本提交">
+      <created>1554172158854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554172158854</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新---(页面展示改为了HTML)">
+      <created>1554199526255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554199526255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新---(页面展示改为了HTML)">
+      <created>1554347183560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554347183560</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新---(页面展示改为了HTML)">
+      <created>1554387858710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554387858710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新---为了后端好写一点还是改回了jsp。然后照片的功能也写了个大概">
+      <created>1554387954693</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554387954693</updated>
+    </task>
+    <task id="LOCAL-00008" summary="登录和相册的创建，数据的传递都弄好为了。">
+      <created>1554389354045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554389354045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="登录功能，动态获取用户输入来创建相册">
+      <created>1554464448614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554464448614</updated>
+    </task>
+    <task id="LOCAL-00010" summary="登录--创建相册--删除相册">
+      <created>1554535968170</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554535968171</updated>
+    </task>
+    <task id="LOCAL-00011" summary="登录--注册--创建相册--删除相册">
+      <created>1554539249627</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554539249627</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ajax版登录&#10;&#10;--注册--创建相册--删除相册">
+      <created>1554543370110</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554543370110</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ManagerTest_insertUserTest - 2019.04.01 at 15h 03m 28s.xml">
+      <configuration name="ManagerTest.insertUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_insertUserTest - 2019.04.09 at 17h 45m 41s.xml">
+      <configuration name="ManagerTest.insertUserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_insertUserTest - 2019.04.12 at 17h 22m 57s.xml">
+      <configuration name="ManagerTest.insertUserTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="278846000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.34450403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.22788204" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.23796034" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.37591776" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16487935" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="F:/Coding.netWorkSpace/AlbumSystem" />
+    </ignored-roots>
+    <MESSAGE value="相册管理系统第一次提交" />
+    <MESSAGE value="相册管理系统框架最终版本提交" />
+    <MESSAGE value="更新---(页面展示改为了HTML)" />
+    <MESSAGE value="更新---为了后端好写一点还是改回了jsp。然后照片的功能也写了个大概" />
+    <MESSAGE value="登录和相册的创建，数据的传递都弄好为了。" />
+    <MESSAGE value="登录功能，动态获取用户输入来创建相册" />
+    <MESSAGE value="登录--创建相册--删除相册" />
+    <MESSAGE value="登录--注册--创建相册--删除相册" />
+    <MESSAGE value="ajax版登录&#10;&#10;--注册--创建相册--删除相册" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax版登录&#10;&#10;--注册--创建相册--删除相册" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/01dcff7b4a464b76b79b6b2bd1a92772_IMG_20170611_121748.jpg" />
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/02b7f13ecfe94eaab0a3388c020909ef_4.jpg" />
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/9de0cb2bf8e9492d9265b1426d6cfb82_IMG_20170611_112146.jpg" />
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/searchPhotoPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-873">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_pojo/src/main/java/com/hubu/pojo/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1736">
+          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/AlbumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/477e954b7c414bbd97fb117adbd9aa71_BQ3~5`0$IC6Z}]6Y%T]Z4SB.jpg" />
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_mapper/src/main/java/com/hubu/mapper/PhotoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/showPhoto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1720">
+          <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/reviseAlbum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/album.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_wwj/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/css/css_hjh/Albumdelete.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/Albumdelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/createAlbum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Album.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/Albumdelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/createAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="118" column="14" lean-forward="true" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/recycle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/reviseAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/searchPhotoPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="102" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/showPhoto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="193" column="80" selection-start-line="193" selection-start-column="80" selection-end-line="193" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4480">
+          <caret line="160" column="42" selection-start-line="160" selection-start-column="10" selection-end-line="160" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/PhotoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_service/src/main/java/com/hubu/service/impl/PhotoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3164">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+          <folding>
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/js/js_hjh/recycle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/java/com/hubu/controller/PhotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="166" column="78" selection-start-line="166" selection-start-column="78" selection-end-line="166" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/5b6bdb8c218a486486aa1d6b5c55167a_psb (4).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/718ae269ea7142a4a054fc97b52cab9d_5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/6960b94463874448a785c88126157e15_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/c81a305be8d943beae09cd4bd279f87c_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/f1632b09ac43416bb30155ee5abbaf28_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlbumSystem_web/src/main/webapp/uploadimg/3f40116a087f425f8036677f99cfd51e_7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>AlbumSystem_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AlbumSystem_web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

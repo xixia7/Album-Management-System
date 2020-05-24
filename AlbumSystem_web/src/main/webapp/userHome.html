@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery-3.3.1.js"></script> <!--① 必须要额外引入jquery.js   ② 引入jquery在引入bootstrap之前-->
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>        <!--快捷键：script:src-->
+    <script type="text/javascript" src="js/js_wwj/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js_wwj/sketch.min.js"></script>
+    <script type="text/javascript" src="js/js_wwj/modernizr.custom.63321.js"></script>
+
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+        
+    }
+    body {
+        /* background-color:#ea6f5a; */
+        overflow-x: hidden;
+        /* background-color: pink; */
+        height:100px;
+      
+    }
+    .container_main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar {
+        background-color: #fff;
+        border-color: #f0f0f0;
+    }
+    #mynavbar li:first-child{margin-left: 50px;}
+    a { color:#333;}
+    .active>a {
+        /* background-color: #F4E0BD; */
+        color:#ea6f5a;
+    }
+    .navbar-fixed-top {
+        padding-right: 15px;
+    }
+    .nav  li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navbar-form {
+        margin-left: 100px;
+    }
+    .list-group {
+        position: fixed;
+    }
+    .list-group-item {
+        margin-top: 100px;
+    }
+    .form-control {
+        font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    }
+    .glyphicon-search:before {
+        color:#ea6f5a;
+    }
+    .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+        background-color: #ea6f5a;
+        border-color: #eee;
+    }
+    .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #F4E0BD;
+    border-color: #eee;}
+    .panel-primary {
+    border-color: #eee;
+}
+    .clearfixed {
+        position: relative;
+    }
+    .clearfixed>li {margin-top:25px;}
+
+
+    </style>
+</head>
+<body>
+       <div class="container_main" >
+       <div class="row">
+             <div class="col-md-11">
+                <div class="panel-body">
+                    <ul class="list-group clearfixed">
+                        <li class="list-group-item ">用户名：
+                            <text>哈哈哈</text>
+                        </li>
+                        <li class="list-group-item ">邮箱：
+                            <text>123456789@qq.com</text>
+                        </li>
+                        <li class="list-group-item ">性别：
+                            <text>女</text>
+                        </li>
+                        <li class="list-group-item ">出生年月：
+                            <text>1999-7-11</text>
+                        </li>
+                        <li class="list-group-item ">修改资料</li>
+                        <li class="list-group-item ">修改密码</li>
+                    </ul>
+                </div>
+             </div>
+         </div>
+
+  
+            <button type="button" class="btn btn-danger" style="float: left">修改</button>
+            <button type="button" class="btn btn-danger" style="float: right">确定</button>
+
+        </div>
+</body>
+
+<style>
+
+</style>
+</html>
+

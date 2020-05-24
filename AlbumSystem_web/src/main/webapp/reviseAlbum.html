@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>弹窗</title>
+        <link rel="stylesheet" type="text/css" href="css/css_hjh/reviseAlbum.css">
+    </head>
+    <body>
+
+        <div id="rev-background" class="black">
+            <div id="rev-div1"  class="rev-window">
+                <div id="rev-close">
+                    <span id="rev-close-button">×</span>
+                    <p id="rev-label">修改相册</p>
+                </div>
+                <div id="rev-div2">
+                        <form id="rev-album-form" action="" method="post">
+                                <fieldset>
+                                    <label for="albumname">
+                                        相册名称：
+                                    </label>
+                                    <input type="text" id="rev-albumname" name="albumname" placeholder="请输入相册名称"/>
+                                    <div class="rev-clear"> </div>
+                                    <label>
+                                        相册描述：
+                                    </label>
+                                    <textarea cols="20" rows="3" placeholder="写下你对相册的描述吧"></textarea>
+                                    <div class="rev-clear"></div>
+
+                                </fieldset>
+                            </form>
+                </div> 
+                <div id="rev-div3">
+                    <span id="rev-buttons">
+                        <button id="rev-confirm" class="rev-btn">确认</button>
+                        <button id="rev-cancle" class="rev-btn">取消</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/js_hjh/reviseAlbum.js"></script>
+    </body>
+</html>

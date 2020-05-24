@@ -1,0 +1,6 @@
+com\hubu\service\impl\AlbumServiceImpl.class
+com\hubu\service\impl\PhotoServiceImpl.class
+com\hubu\service\UsersService.class
+com\hubu\service\impl\UsersServiceImpl.class
+com\hubu\service\AlbumService.class
+com\hubu\service\PhotoService.class

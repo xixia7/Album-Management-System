@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.js"></script> <!--① 必须要额外引入jquery.js   ② 引入jquery在引入bootstrap之前-->
+    <script type="text/javascript" src="js/js_wwj/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js_wwj//sketch.min.js"></script>
+    <script src="js/js_wwj/modernizr.custom.63321.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>        <!--快捷键：script:src-->
+    
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/css_wwj/homepage.css">
+
+    <link rel="stylesheet" type="text/css" href="css/css_hjh/createAlbum.css"> <!--创建成功-->
+    <link rel="stylesheet" type="text/css" href="css/css_hjh/window.css"> <!--创建相册-->
+    <link rel="stylesheet" type="text/css" href="css/css_hjh/reviseAlbum.css">
+    <link rel="stylesheet" type="text/css" href="css/css_hjh/Albumdelete.css">
+    
+
+<style>
+    body {
+        overflow-y: hidden;
+    }
+    </style>
+</head>
+<body>
+
+    <!--导航栏 -->
+    <div class="container">
+        <nav class="navbar  navbar-fixed-top">
+                <div class="navbar-header">
+                    <a href="" class="navbar-brand">
+                        <img alt="Brand" height="100%" src="images/images_wwj/logo2.png">
+                    </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="mynavbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <!--导航栏：我的相册-->
+                            <li >
+                                <a href="#MyAlbum" data-toggle="tab" class="active"><span class="glyphicon glyphicon-camera"> </span> 我 的 相 册 </a>
+                            </li>
+                            <!--导航栏：回收站-->
+                            <li >
+                                <a href="#RecycleAlbum" data-toggle="tab" ><span class="glyphicon glyphicon-trash"> </span> 回 收 站 </a>
+                            </li>
+                            <!--导航栏：搜索-->
+                            <form action="" class="navbar-form navbar-left">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="searchInput">
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn" id="search"><span class="glyphicon glyphicon-search"></span></button>
+                                    </div>
+                                    <p><span id='search-result'></span></p>
+                            </form>
+                            <!--导航栏：个人中心-->
+                            <li>
+                                <a href="#UserHome" data-toggle="tab"><span class="glyphicon glyphicon-user"></span> 个 人 中 心 </a>
+                            </li>
+                            <!--导航栏：退出登录-->
+                            <li>
+                                <a href="javascript:void(0)"><span class="glyphicon glyphicon-off"></span> 退 出 登 录 </a>
+                            </li>
+                        </ul>
+                </div>
+        </nav>
+    </div>
+
+    <!--主面板  -->
+    <div class="container_main">
+
+        <div class="row">
+
+           <!--侧栏悬浮：显示总相册数和照片数-->
+            <div class="col-md-1">
+                 <div class="list-group">
+                     <a href=" " class="list-group-item  active" >
+                         <span class="glyphicon glyphicon-heart" ></span>
+                         <p>相册数：2</p>
+                         <p>照片数：1234</p>
+                     </a>
+                 </div>
+             </div>
+
+
+            <!--引入页面  -->
+            <div class="tab-content" >
+
+                <!--1. 我的相册  -->
+                <div class="col-md-11 tab-pane fade in active"  id="MyAlbum" >
+                        <div class="panel panel-primary" >
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    我的相册
+                                </div>
+                            </div>
+                            <div class="panel-body" style="height:610px;overflow: hidden;">
+                                <div class="embed-responsive embed-responsive-16by9" style="height:300px;"> 
+                                    <iframe class="embed-responsive-item"  src="Album.html" style="height:590px;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <!--2.回收站  -->
+                <div class="col-md-11 tab-pane fade" id="RecycleAlbum">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    回收站
+                                </div>
+                            </div>
+                            <div class="panel-body" style="height:595px;overflow: hidden;">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"  src="recycle.html" ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <!--3.个人中心  -->
+                <div class="col-md-11 tab-pane fade" id="UserHome">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    个人中心
+                                </div>
+                            </div>
+                            <div class="panel-body" style="height:595px;overflow: hidden;">
+                                <div class="embed-responsive embed-responsive-16by9" style="height:300px;">
+                                    <iframe class="embed-responsive-item"  src="userHome.html"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+
+            </div>
+
+
+         </div>
+    </div>
+
+    <!--上传照片照片-->
+    <div id="uploadPhoto" class="modal fade" > 
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="close" data-dismiss="modal">&times;</div>
+                    <h4>上传</h4>
+                </div>
+                <div class="modal-body">
+                        <form action=" ">
+                                <div class="form-group">
+                                    <label for="">标题：</label>
+                                    <input type="text" class="form-control" placeholder="请输入标题" >
+                                
+                                </div>
+                
+                                <div class="form-group" >
+                                    <label for="">描述：</label>
+                                    <input type="textarea" class="form-control" placeholder="请输入描述">
+                                </div>
+
+                                <div class="form-group" >
+                                    <label for="">文件：</label>
+                                    <input type="file" class="form-control" placeholder="请输入描述">
+                                </div>
+                        </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning uploadPhoto">确定</button>
+                    <button class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--鼠标跟随特效-->
+    <div id="test" style=" position:fixed;top:0px;z-index:-1;"></div>
+
+    <script type="text/javascript" src="js/js_wwj/mouseflow.js"></script>
+    <script type="text/javascript" src="js/js_wwj/homepage.js"></script>
+    <script type="text/javascript" src="js/js_hjh/window.js"></script>
+    <script type="text/javascript" src="js/js_hjh/createAlbum.js"></script>
+    <script type="text/javascript" src="js/js_hjh/reviseAlbum.js"></script>
+    <script type="text/javascript" src="js/js_hjh/Albumdelete.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+com\hubu\controller\PageController.class
+com\hubu\controller\PhotoController.class
+com\hubu\controller\AlbumController.class
+com\hubu\controller\UsersController.class
